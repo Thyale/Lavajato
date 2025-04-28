@@ -7,10 +7,19 @@
 html{width: 100vw; height: 100vh;}
 
 /*Body*/
-body{background-image:linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(34, 7, 52, 1), rgba(67, 13, 75, 1))}
+.DivContainer{background-image:linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(34, 7, 52, 1), rgba(67, 13, 75, 1)); height: 100vh;}
 
 /*Header*/
 .header{width: 90vw;max-width: 1400px;margin: auto;display: flex;flex-direction: row;align-items: center;justify-content: space-between;padding: 30px 0px;}
 .header img{width: 60px;}
 .header button{background-color: rgba(104, 105, 172, 1); border: 1px solid rgba(245, 213, 224, 1); color: rgba(245, 213, 224, 1);padding: 10px 15px; border-radius: 20px; transition: background-color 0.3s ease, transform 0.3s ease;}
 .header button:hover{background-color: transparent;border: 1px solid rgba(104, 105, 172, 1); cursor: pointer;transform: scale(1.05);}
+
+/*Sessão Início*/
+.SessaoInicio{width: 90vw;max-width: 1400px;margin: auto; padding: 30px 0px; display: flex; flex-direction: column; gap: 10px; align-items: center;}
+.SessaoInicio h1{font-family: "Lexend Zetta", sans-serif;font-size: 40px; color: rgba(104, 105, 172, 1); text-align: center;}
+.SessaoInicio p{font-family:"Manrope", sans-serif; color: rgba(245, 213, 224, 1); width: 100%;max-width: 900px;text-align: center;}
+.SessaoInicio_ImgCar{width: 100%; max-width: 1000px;margin-top: 20px;margin-bottom: 20px;}
+.SessaoInicio_ImgArrow{width: 20px;margin-top: 20px;margin-bottom: 20px;transform: rotate(90deg);animation: pulse 2s infinite;transform-origin: center;}
+@keyframes pulse {0% {transform: rotate(90deg) scale(1);}50% {transform: rotate(90deg) scale(1.1);}100% {transform: rotate(90deg) scale(1);}}
+@media (max-width:600px){.SessaoInicio h1{font-size: 24px;}}

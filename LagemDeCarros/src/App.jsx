@@ -1,10 +1,12 @@
 import Header from "./Components/Header"
+import SessaoInicio from "./Components/SessaoInicio"
 
 function App() {
   return (
-    <>
-    <Header/>
-    </>
+    <div className="DivContainer">
+      <Header/>
+      <SessaoInicio/>
+    </div>
   )
 }
 
