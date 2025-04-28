@@ -1,4 +1,5 @@
 import Header from "./Components/Header"
+import Services from "./Components/Services"
 import SessaoInicio from "./Components/SessaoInicio"
 
 function App() {
@@ -6,6 +7,7 @@ function App() {
     <div className="DivContainer">
       <Header/>
       <SessaoInicio/>
+      <Services/>
     </div>
   )
 }
