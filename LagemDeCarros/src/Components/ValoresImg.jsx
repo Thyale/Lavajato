@@ -1,7 +1,9 @@
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faSquareCheck } from '@fortawesome/free-regular-svg-icons';
 
 function ValoresImg() {
     return (
-        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABoAAAAaCAYAAACpSkzOAAAAAXNSR0IArs4c6QAAAQZJREFUSEvtlsENwjAMRd1NYBJgE5gEmAQ2ASaBUeir7Co1DYI4ajngS6Qo8Uv8bSeNTGTNRByZFbQQkb2IMJbard14SDf7G21F5FTq3e27isjG5jwICDAWcapSIyIPBTG+aHRpIet2/uiv/gWRkN91/VKBf9BoAE3TTgvN1uqhQ090xcgwkqi6RqnDNJVDIE5OaMbCwxzZZVYMstoi5c8KszIY1EpUI1oJBYgBW2mtpbqkWVJ8I5ykMHNq4vtUDIE87F3nCIMMRuj6ZjlSWVVAn7S83wSRxuhQYtzIukW2e9d8+AaF7B8+e8YBRgzITntf5yf3OYn8F/Brrao/7Ky/oEjIsnufYO9jG5kIvLUAAAAASUVORK5CYII="/>
+        <FontAwesomeIcon icon={faSquareCheck} style={{ color: '#F5D5E0' }} />
     )
   }
   
