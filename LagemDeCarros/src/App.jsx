@@ -1,4 +1,5 @@
 import Card from "./Components/Card"
+import Comentarios from "./Components/Comentarios"
 import Header from "./Components/Header"
 import Passos from "./Components/Passos"
 import Services from "./Components/Services"
@@ -14,6 +15,7 @@ function App() {
       <Card/>
       <ValoresContainer/>
       <Passos/>
+      <Comentarios/>
     </div>
   )
 }
