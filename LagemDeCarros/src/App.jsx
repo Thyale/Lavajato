@@ -1,5 +1,6 @@
 import Card from "./Components/Card"
 import Comentarios from "./Components/Comentarios"
+import Footer from "./Components/Footer"
 import Header from "./Components/Header"
 import Passos from "./Components/Passos"
 import Services from "./Components/Services"
@@ -16,6 +17,7 @@ function App() {
       <ValoresContainer/>
       <Passos/>
       <Comentarios/>
+      <Footer/>
     </div>
   )
 }
