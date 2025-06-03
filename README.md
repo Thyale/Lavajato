@@ -26,7 +26,7 @@ Para visualizar o projeto de UI completo, acesse:
 ## 🌎 Acesse o Projeto
 
 Visualize o site hospedado (se aplicável):  
-🔗 [**Lava Jato - Landing Page**](https://thyale.github.io/LavaJato/)  
+🔗 [**Lava Jato - Landing Page**](https://thyale.github.io/PrimeWash-LandingPage/)  
 
 ## 📥 Como Baixar e Rodar o Projeto
 
