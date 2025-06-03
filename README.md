@@ -1,6 +1,6 @@
-# Lava Jato
+# Prime Wash
 
-**Lava Jato** é um projeto de **Landing Page** desenvolvido para um serviço fictício de **lavagem de carros**. O objetivo é divulgar os serviços oferecidos, apresentar informações úteis e permitir o agendamento de horários — tudo isso em uma interface moderna e responsiva, **100% front-end** (sem integração com banco de dados).
+**Prime Wash** é um projeto de **Landing Page** desenvolvido para um serviço fictício de **lavagem de carros**. O objetivo é divulgar os serviços oferecidos, apresentar informações úteis e permitir o agendamento de horários — tudo isso em uma interface moderna e responsiva, **100% front-end** (sem integração com banco de dados).
 
 ## ✨ Sobre o Projeto
 
