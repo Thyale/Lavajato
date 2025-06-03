@@ -129,7 +129,8 @@ flex-direction: column; gap: 20px;}
 
 .Formulario{background-color: #220734; width: 90%; max-width: 766px; border-radius: 20px;box-shadow: 20px 20px 100px rgba(255, 255, 255, 0.273); padding: 20px; color: white;font-family: "Manrope", sans-serif; display: flex; flex-direction: column; gap: 20px;}
 .FormularioCompleto{display: flex; flex-direction: column; gap: 5px;}
-.Formulario input, select{background-color: #F5D5E0; border: none; outline: none; border-radius: 10px; padding: 10px;}
+.Formulario input{background-color: #F5D5E0; border: none; outline: none; border-radius: 10px; padding: 10px;}
+.Formulario select{background-color: #F5D5E0; border: none; outline: none; border-radius: 10px; padding: 10px;}
 
 .FormularioHorizontal{display: flex; flex-direction: row; gap: 20px; justify-content: space-between;}
 .FormularioHorizontal>div{display: flex;flex-direction: column;gap: 10px; width: 100%; max-width: 350px;}
