@@ -2,7 +2,7 @@ import ValoresCard from "./ValoresCard"
 
 function ValoresContainer() {
   return (
-    <div className="DivValoresContainer">
+    <div id="DivValoresContainer" className="DivValoresContainer">
         <div className="DivValoresContainerTexto">
             <h2>Escolha o <strong>Pacote Ideal</strong> para Seu Carro</h2>
             <p>Nossos pacotes foram pensados para oferecer o melhor custo-benefício com tecnologia de ponta e responsabilidade ambiental. Todos os serviços utilizam nanotecnologia e produtos ecológicos para uma limpeza eficiente, segura e sustentável.</p>

@@ -8,7 +8,7 @@ import imgInfo6 from "../assets/image/lupa.png"
 
 function Services() {
     return (
-      <div className="Services">
+      <div id="Services" className="Services">
         <div className="ServicesTitle">
             <h2>Escolha o <strong>Tipo de Lavagem</strong> Perfeito para Seu Carro</h2>
             <p>Cada carro tem uma necessidade diferente — e nós temos o serviço ideal para atender cada uma delas. Descubra nossos tipos de lavagem e surpreenda-se com o resultado.</p>

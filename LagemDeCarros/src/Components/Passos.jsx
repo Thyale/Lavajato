@@ -1,6 +1,20 @@
 import ImgSeta from "../assets/image/ImgArrow.png"
+import { useEffect } from "react";
+import ScrollReveal from "scrollreveal";
 
 function Passos() {
+
+    useEffect(() => {
+        ScrollReveal().reveal(".PassosContainer", {
+          duration: 1000,
+          origin: "left", 
+          distance: "50px", 
+          delay: 200, 
+          easing: "ease-in-out", 
+          reset: false,
+        });
+      }, []);
+
   return (
     <div className="Passos">
         <h1>Agende em minutos,<strong><br></br> sem complicações</strong></h1>

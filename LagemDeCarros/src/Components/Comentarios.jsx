@@ -5,7 +5,7 @@ import ImgPefil3 from "../assets/image/imgHomemPerfil.jpg"
 
 function Comentarios() {
   return (
-    <div className="Comentarios">
+    <div id="Comentarios" className="Comentarios">
         <h1>Nossos clientes falam por nós.</h1>
         <p>Confira as experiências de quem já agendou com a gente e veja por que nosso serviço é destaque quando o assunto é praticidade e qualidade.</p>
         <div>

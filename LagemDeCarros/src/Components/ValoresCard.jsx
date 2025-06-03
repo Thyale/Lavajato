@@ -1,6 +1,21 @@
 import ValoresImg from "./ValoresImg"
+import { useEffect } from "react";
+import ScrollReveal from "scrollreveal";
 
 function ValoresCard({valor, nome, descp, info1, info2, info3, info4,highlighted }) {
+
+  useEffect(() => {
+        ScrollReveal().reveal(".DivValoresCard", {
+          duration: 1000,
+          origin: "bottom", 
+          distance: "50px", 
+          delay: 200, 
+          easing: "ease-in-out", 
+          reset: false,
+        });
+      }, []);
+
+
     return (
       <div className={`DivValoresCard ${highlighted ? "highlighted-card" : ""}`}>
       <div>

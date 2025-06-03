@@ -10,10 +10,10 @@ function Footer() {
                 <div>
                     <h1>Sessões</h1>
                     <ul>
-                        <li><a href="#">Serviços</a></li>
-                        <li><a href="#">Valores</a></li>
-                        <li><a href="#">Relatos</a></li>
-                        <li><a href="#">Agendamento</a></li>
+                        <li><a href="#Services">Serviços</a></li>
+                        <li><a href="#DivValoresContainer">Valores</a></li>
+                        <li><a href="#Comentarios">Relatos</a></li>
+                        <li><a href="#FormularioContainer">Agendamento</a></li>
                     </ul>
                 </div>
 
@@ -30,7 +30,7 @@ function Footer() {
                 </div>
             </div>
         </div>
-        <p>© 2025 Thyale MD. Todos os direitos reservados. || Design e desenvolvimento por Thyale MD.</p>
+        <p>© 2025 Thyale MD. Todos os direitos reservados. || Design e desenvolvimento por <a href="https://www.linkedin.com/in/thyalemd/" target="_blanck">Thyale MD.</a></p>
     </div>
   )
 }

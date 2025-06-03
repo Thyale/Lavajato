@@ -1,5 +1,20 @@
+import { useEffect } from "react";
+import ScrollReveal from "scrollreveal";
 
 function Formulario() {
+
+    useEffect(() => {
+        ScrollReveal().reveal(".Formulario", {
+          duration: 1000,
+          origin: "bottom", 
+          distance: "50px", 
+          delay: 200, 
+          easing: "ease-in-out", 
+          reset: false,
+        });
+      }, []);
+
+
     return (
       <div className="Formulario">
 

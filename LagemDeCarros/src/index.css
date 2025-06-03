@@ -4,11 +4,18 @@
 
 /*Configurações iniciais*/
 *{margin: 0; padding: 0;}
-html{width: 100vw; height: 100vh;}
+html{width: 100vw; height: 100vh;scroll-behavior: smooth;}
 
 /*Body*/
 .DivContainer{background-image:linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(34, 7, 52, 1), rgba(67, 13, 75, 1)); height: 100%;}
 body{overflow-x: hidden;}
+
+/*Barra de Scroll*/
+::-webkit-scrollbar {width: 12px;}
+::-webkit-scrollbar-track {background: #1e1e2f;border-radius: 10px;}
+::-webkit-scrollbar-thumb {background: #6869AC; border-radius: 10px;border: 2px solid #1e1e2f;}
+::-webkit-scrollbar-thumb:hover {
+  background: #8284dc;}
 
 /*Header*/
 .header{width: 90vw;max-width: 1214px;margin: auto;display: flex;flex-direction: row;align-items: center;justify-content: space-between;padding: 30px 0px;}
@@ -143,6 +150,7 @@ flex-direction: column; gap: 20px;}
 /*Footer*/
 .Footer{border-top: 2px solid #220734; font-family: "Manrope", sans-serif;}
 .FooterConteudo{width: 90vw;max-width: 1214px;margin: auto; padding: 30px 0px; display: flex; flex-direction: row; align-items: center; gap: 20px; margin-top: 20px; justify-content: space-between;}
+.Footer>p>a{color: #F5D5E0; font-weight: bold; text-decoration: none;}
 
 .FooterConteudo img{width: 137px;}
 .FooterConteudoContainer{display: flex; flex-direction: row; justify-content: space-between; gap: 20px;flex-wrap: ;}
@@ -152,7 +160,8 @@ flex-direction: column; gap: 20px;}
 .FooterConteudoContainer>div>a:hover{background-color: transparent;transform: scale(1.05);}
 .FooterConteudoContainer>div>p{color: rgba(245, 213, 224, 0.67); margin-bottom: 20px; margin-top: 10px;}
 .FooterConteudoContainer>div>ul{list-style: none; margin-top: 10px;}
-.FooterConteudoContainer>div>ul>li>a{margin-bottom: 10px; color: rgba(245, 213, 224, 0.67); font-size: 16px; display: flex; align-items: center; gap: 10px;}
+.FooterConteudoContainer>div>ul>li>a{margin-bottom: 10px; color: rgba(245, 213, 224, 0.67); font-size: 16px; display: flex; align-items: center; gap: 10px;transition: background-color 0.3s ease, transform 0.3s ease;}
+.FooterConteudoContainer>div>ul>li>a:hover{cursor: pointer;transform: scale(1.05);}
 
 .Footer>p{text-align: center; margin-top: 20px; padding: 10px; color: #F5D5E0;font-family: "Manrope", sans-serif;}
 @media (max-width:1300px){.FooterConteudo{flex-direction: column; align-items: start;}.FooterConteudoContainer{flex-direction: column;}}

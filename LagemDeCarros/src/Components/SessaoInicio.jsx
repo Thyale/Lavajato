@@ -1,7 +1,21 @@
 import arrow from "../assets/image/ImgArrow.png"
 import carro from "../assets/image/ImgSportiveCar.png"
 
+import { useEffect } from "react";
+import ScrollReveal from "scrollreveal";
+
 function SessaoInicio() {
+  useEffect(() => {
+        ScrollReveal().reveal(".SessaoInicio_ImgCar", {
+          duration: 1000,
+          origin: "bottom", 
+          distance: "50px", 
+          delay: 200, 
+          easing: "ease-in-out", 
+          reset: false,
+        });
+      }, []);
+
     return (
       <div className="SessaoInicio">
         <h1>Seu carro, renovado em minutos. <br></br><strong>Brilho de outro nível.</strong></h1>
