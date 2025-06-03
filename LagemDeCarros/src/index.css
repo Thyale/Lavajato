@@ -110,7 +110,7 @@ flex-direction: column; gap: 20px;}
 }
 
 /*Formulário*/
-.FormularioContainer{width: 90vw;max-width: 1214px;margin: auto; padding: 30px 0px; margin-bottom: 30px;}
+.FormularioContainer{width: 90vw;max-width: 1214px;margin: auto; padding: 30px 0px; margin-bottom: 30px; background-image: url(../src/assets/image/BgFormulario.png); background-position: right; background-size: contain; background-repeat: no-repeat;}
 .FormularioContainer>div> h1{font-family: "Lexend Zetta", sans-serif; font-size: 40px; color: #F5D5E0; margin-bottom: 10px; font-weight: 400;}
 .FormularioContainer>div> h1 strong{color: #6869AC;}
 .FormularioContainer>div> p{font-family: "Manrope", sans-serif; color: #F5D5E0; margin-top: 10px; width: 100%; max-width: 700px; margin-bottom: 20px;}
