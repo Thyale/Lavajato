@@ -13,7 +13,7 @@ A ideia da experiência do usuário (**UX**) foi baseada em uma sugestão gerada
 Todo o design da interface foi desenvolvido no **Figma**, com foco em uma estética futurista e profissional.  
 Para visualizar o projeto de UI completo, acesse:
 
-🔗 [**Design no Figma**](https://www.behance.net/gallery/227475163/Prime-Wash-UI-Design-Desenvolvimento)  
+🔗 [**Design no Behance**](https://www.behance.net/gallery/227475163/Prime-Wash-UI-Design-Desenvolvimento)  
 
 ## 🚀 Tecnologias Utilizadas
 
